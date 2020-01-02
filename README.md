@@ -8,3 +8,6 @@ Cloudflare从入门到放弃
 https://www.jianshu.com/p/7f38989ffa15  
 
 
+使用 systemd 限制系统资源的使用  
+https://www.ctolib.com/topics-136975.html  
+
