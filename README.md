@@ -21,10 +21,17 @@ https://gitee.com/tavenli/port-forward
 centos 允许非root用户监听特权端口  
 特权端口=privileged port=1024 以下端口  
 ```  
+useradd ssuser
+cp -r shadowsocks /home/ssuser/
 setcap CAP_NET_BIND_SERVICE=+eip  /usr/bin/python2.7
 chmod 777 /etc/hosts.allow
 chmod 777 /etc/hosts.deny
 ll /etc/hosts*
+cd /home/ssuser/shadowsocks
+git reset --hard
+git pull
+git reset --hard
+vi /etc/systemd/system/ssr.service
 ```  
 https://peter-mao.blogspot.com/2016/04/centos-root.html  
 
