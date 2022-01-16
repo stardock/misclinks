@@ -35,4 +35,23 @@ vi /etc/systemd/system/ssr.service
 ```  
 https://peter-mao.blogspot.com/2016/04/centos-root.html  
 
+CentOS 7不重启刷新磁盘列表  
+```
+ls /sys/class/scsi_host/
+echo "- - -" > /sys/class/scsi_host/host0/scan
+echo "- - -" > /sys/class/scsi_host/host1/scan
+echo "- - -" > /sys/class/scsi_host/host2/scan
+fdisk -l
+```
+https://www.cnblogs.com/zd520pyx1314/p/8532356.html  
+
+centos 7 进单用户修改密码  
+```
+编辑修改两处：ro改为rw，在LANG=en_US.UFT-8后面添加 init=/bin/sh
+按Ctrl+x 重启进入单用户，修改密码
+touch /.autorelabel
+exec /sbin/init
+```  
+https://blog.51cto.com/chaichuan/1983741  
+
 
