@@ -56,6 +56,6 @@ https://blog.51cto.com/chaichuan/1983741
 
 lvm进阶  
 先创建分区，然后创建pv,创建vg，最后再创建lv。之后可能需要格式化 mkfs.ext4 或者 resize2fs / xfs growfs  
-
+partprobe 重新加载分区表  
 
 
