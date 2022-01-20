@@ -65,3 +65,9 @@ mount -s remount.tw /sysroot
 chroot /sysroot
 echo $SHELL
 ```
+
+selinux模式  
+```
+ls -Z 查看文件的安全上下文
+ps -U 查看进程的安全上下文
+```
