@@ -60,3 +60,6 @@ partprobe 重新加载分区表
 
 单用户模式  
 rd.break console=tty0
+mount -s remount.tw /sysroot
+chroot /sysroot
+
