@@ -62,4 +62,4 @@ partprobe 重新加载分区表
 rd.break console=tty0
 mount -s remount.tw /sysroot
 chroot /sysroot
-
+echo $SHELL
