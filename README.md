@@ -71,3 +71,4 @@ selinux模式
 ls -Z 查看文件的安全上下文
 ps -U 查看进程的安全上下文
 ```
+linux中的浏览器 lynx  
