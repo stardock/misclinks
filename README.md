@@ -75,3 +75,6 @@ restorecon -Rv 回复目录预设的安全上下文
 semanage fcontext -a -t httpd_sys_content_t '/virtual(/.*)?' 修改目录默认的安全上下文
 ```
 linux中的浏览器 lynx  
+
+linux中的NFS
+
