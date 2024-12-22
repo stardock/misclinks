@@ -81,5 +81,13 @@ https://github.com/stardock/nfs
 showmount -e nfs服务器ip  
 autofs 自动挂载服务  
 
+使用Cloudflare加密个人网站  
+https://www.horosama.com/archives/358  
+
+CentOS7安装docker（参考官方文档）  
+https://www.cnblogs.com/lambdadog/p/18323721  
+
+Nginx IP访问控制，只允许指定的IP地址访问  
+https://www.cnblogs.com/saneri/p/5316182.html  
 
 
