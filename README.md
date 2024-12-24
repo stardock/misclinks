@@ -90,4 +90,11 @@ https://www.cnblogs.com/lambdadog/p/18323721
 Nginx IP访问控制，只允许指定的IP地址访问  
 https://www.cnblogs.com/saneri/p/5316182.html  
 
-
+IISRESET  
+https://blog.darkthread.net/blog/stop-using-iisreset/  
+https://learn.microsoft.com/zh-tw/troubleshoot/developer/webapps/iis/iisadmin-service-inetinfo/using-iisreset-restart-iis-result-error  
+```
+iisreset /stop /timeout:60
+taskkill /F /FI "SERVICES eq was"
+iisreset /start
+```
