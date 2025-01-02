@@ -98,3 +98,12 @@ iisreset /stop /timeout:60
 taskkill /F /FI "SERVICES eq was"
 iisreset /start
 ```
+
+dnssec  
+```
+dig sample.com +dnssec @1.1.1.1
+https://dnssec-analyzer.verisignlabs.com/
+```
+https://ephen.me/2016/dnssec-verify/  
+https://www.yfname.com/help/detail/5  
+https://dnssec-analyzer.verisignlabs.com/sunrize.cn  
