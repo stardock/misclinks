@@ -108,3 +108,6 @@ https://dnsviz.net/d/stardock.cc/dnssec/
 https://ephen.me/2016/dnssec-verify/  
 https://www.yfname.com/help/detail/5  
 https://dnssec-analyzer.verisignlabs.com/sunrize.cn  
+
+use powershell to get user's proxyaddress:  
+`Get-ADUser -Filter { samaccountname -eq "username" } -Properties proxyaddress,emailaddress | fl`
