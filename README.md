@@ -110,4 +110,7 @@ https://www.yfname.com/help/detail/5
 https://dnssec-analyzer.verisignlabs.com/sunrize.cn  
 
 use powershell to get user's proxyaddress:  
-`Get-ADUser -Filter { samaccountname -eq "username" } -Properties proxyaddress,emailaddress | fl`
+`Get-ADUser -Filter { samaccountname -eq "username" } -Properties proxyaddress,emailaddress | fl`  
+
+让powershell显示所有结果 `$FormatEnumerationLimit=-1`  
+https://devblogs.microsoft.com/powershell-community/how-to-use-formatenumerationlimit/  
